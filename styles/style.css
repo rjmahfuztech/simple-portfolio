@@ -1,0 +1,43 @@
+/* common shared style */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  color: white;
+  background-color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 0;
+}
+
+/* nav-bar style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+  color: #181818;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav ul > li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav ul > li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: #474747;
+}
