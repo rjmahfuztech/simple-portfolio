@@ -15,6 +15,16 @@ body {
   border-radius: 5px;
   border: 0;
 }
+.section-title {
+  color: #181818;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 800;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+}
 
 /* nav-bar style */
 nav {
@@ -76,4 +86,33 @@ nav ul > li a {
 }
 .banner .banner-profile {
   width: 500px;
+}
+/* main section style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about section style */
+.about-section {
+  background-color: #fff8f3;
+  margin: 130px 0;
+  padding: 130px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+}
+.about-info > h4,
+p {
+  color: #757575;
+  font-size: 19px;
+  font-weight: 400;
+}
+.about-info > p {
+  font-weight: 800;
+  margin-top: -20px;
 }
