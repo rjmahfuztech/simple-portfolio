@@ -21,6 +21,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 200px;
 }
 .nav-title {
   font-weight: 800;
@@ -40,4 +41,29 @@ nav ul > li a {
   font-weight: 400;
   font-size: 20px;
   color: #474747;
+}
+/* banner style */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px 150px;
+}
+.banner .banner-greeting {
+  font-size: 45px;
+  font-weight: 500;
+  color: #474747;
+}
+.banner .banner-title {
+  font-size: 85px;
+  font-weight: 800;
+  color: #181818;
+}
+.banner .banner-text {
+  color: #757575;
+}
+.banner img {
+  width: 100%;
 }
