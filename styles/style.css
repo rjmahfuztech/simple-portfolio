@@ -55,9 +55,13 @@ nav ul > li a {
 /* banner style */
 .header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  padding-left: 25px;
+}
+.header-style {
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 .banner {
   display: flex;
