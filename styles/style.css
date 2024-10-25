@@ -1,7 +1,7 @@
 /* common shared style */
 body {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+  margin: 0;
 }
 .text-primary {
   color: #fd6e0a;
@@ -45,25 +45,35 @@ nav ul > li a {
 /* banner style */
 .header {
   background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner {
   display: flex;
   align-items: center;
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
+  justify-content: space-between;
+}
+.banner .banner-content {
+  max-width: 585px;
 }
 .banner .banner-greeting {
   font-size: 45px;
   font-weight: 500;
   color: #474747;
+  margin-bottom: 0px;
 }
 .banner .banner-title {
   font-size: 85px;
   font-weight: 800;
   color: #181818;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-.banner .banner-text {
+.banner .banner-description {
   color: #757575;
 }
-.banner img {
-  width: 100%;
+.banner .banner-profile {
+  width: 500px;
 }
