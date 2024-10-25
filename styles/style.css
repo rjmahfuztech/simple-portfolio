@@ -140,7 +140,7 @@ p {
   color: #757575;
   font-size: 17px;
 }
-/* resule section */
+/* resume section */
 .resume-section {
   margin: 130px 0;
 }
@@ -172,4 +172,38 @@ p {
 .resume-section > .btn {
   text-align: center;
   margin-top: 50px;
+}
+/* footer section */
+footer {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  background-color: #fff8f3;
+  padding: 130px;
+}
+.footer-column {
+  max-width: 560px;
+}
+.footer-column > .section-title {
+  text-align: left;
+}
+.social-links > a {
+  margin-right: 15px;
+}
+.footer-column > p {
+  color: #474747;
+  font-size: 17px;
+}
+.footer-column .input-style {
+  margin-top: 15px;
+}
+.footer-column .input-style input,
+textarea {
+  padding: 20px 25px;
+  width: 460px;
+  border: none;
+  border-radius: 5px;
+}
+.footer-column .btn-primary {
+  margin-top: 10px;
 }
